@@ -8,16 +8,7 @@ sidebar_label: OAuth2 support using Dex
 
 ## Prerequisites
 
-Before deploying OAuth2 support for LitmusChaos, ensure you have completed the [ChaosCenter installation](../getting-started/installation.md), which includes:
-- Kubernetes 1.17 or later
-- A Persistent volume of 20GB
-- Helm3 or kubectl
-
-Additionally, you will need:
-
-- [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
-
-- [Deployed ChaosCenter](../getting-started/installation.md)
+- [ChaosCenter installed and running](../getting-started/installation.md) (includes Kubernetes 1.17+, kubectl, and persistent storage)
 
 - At least one of the following:
   - Google OAuth credentials

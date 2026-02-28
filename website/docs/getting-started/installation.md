@@ -170,7 +170,7 @@ Litmus supports both HTTP and HTTPS modes of installation.
 Applying the manifest file will install all the required service account configuration and ChaosCenter in namespaced scope.
 
 ```bash
- kubectl apply -f https://raw.githubusercontent.com/litmuschaos/litmus/master/mkdocs/docs/3.20.0/litmus-getting-started.yaml -n <NAMESPACE>
+ kubectl apply -f https://raw.githubusercontent.com/litmuschaos/litmus/3.20.0/mkdocs/docs/3.20.0/litmus-getting-started.yaml -n <NAMESPACE>
 ```
 
   </TabItem>
